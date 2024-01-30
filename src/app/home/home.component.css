@@ -1,0 +1,23 @@
+
+.test_width{
+    height: 320px;
+    width: 400px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    #chooseus_p  {
+      font-size: 20px;
+    }
+    
+  }
+
+
+  .distributor{
+    background-image: url(../../assets/test_pics/Desktop-CTA-Bg_distributor.png);
+  }
+
+
+
+    
