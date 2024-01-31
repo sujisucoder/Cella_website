@@ -82,6 +82,7 @@ export class HomeComponent {
 
   customOptionsTwo: any = {
     loop: true,
+    autoPlay : 5000,
     mouseDrag: true,
     touchDrag: true,
     pullDrag: true,

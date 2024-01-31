@@ -9,13 +9,19 @@ import { HomeComponent } from './home/home.component';
 
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { FooterComponent } from './footer/footer.component';
+import { BrandsComponent } from './brands/brands.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    FooterComponent
+    FooterComponent,
+    BrandsComponent,
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
