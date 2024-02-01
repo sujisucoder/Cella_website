@@ -13,6 +13,8 @@ import { BrandsComponent } from './brands/brands.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +29,9 @@ import { ContactComponent } from './contact/contact.component';
     BrowserModule,
     AppRoutingModule,
     CarouselModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+
+
   ],
   providers: [],
   bootstrap: [AppComponent]
