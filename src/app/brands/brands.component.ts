@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogboxComponent } from '../dialogbox/dialogbox.component';
 
 @Component({
   selector: 'app-brands',
@@ -7,4 +9,6 @@ import { Component } from '@angular/core';
 })
 export class BrandsComponent {
 
+ 
 }
+

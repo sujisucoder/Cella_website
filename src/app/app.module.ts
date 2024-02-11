@@ -12,6 +12,9 @@ import { FooterComponent } from './footer/footer.component';
 import { BrandsComponent } from './brands/brands.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { DialogboxComponent } from './dialogbox/dialogbox.component';
+import { BrandDetailComponent } from './brand-detail/brand-detail.component';
+import { AllBrandsComponent } from './all-brands/all-brands.component';
 
 
 
@@ -23,7 +26,10 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     BrandsComponent,
     AboutComponent,
-    ContactComponent
+    ContactComponent,
+    DialogboxComponent,
+    BrandDetailComponent,
+    AllBrandsComponent
   ],
   imports: [
     BrowserModule,
